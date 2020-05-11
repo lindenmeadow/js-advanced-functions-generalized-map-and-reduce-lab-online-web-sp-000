@@ -4,7 +4,7 @@ function map(src, cb) {
 
     for (let i = 0; i < src.length; i++) {
       let elem = src[i]
-      r.push(cb(elem)
+      r.push(cb(elem))
     }
 
     return r;
